@@ -10,6 +10,19 @@
 
 The **Petgatô** project is an blog, that readers can see posts, login, comment, like and search for posts related to pets, also the author can create, edit posts and manage several parts of the blog. It was develop during CJR's trainee process.
 
+
+
+<p align="center">
+  <a href="https://github.com/m4ycon" alt="Contributor Maycon" target="_blank">
+    <img src="https://img.shields.io/badge/Contributor-Maycon%20Fabio-blue" /></a>
+  
+  <a href="https://github.com/vitorino99" alt="Contributor Vitor" target="_blank">
+    <img src="https://img.shields.io/badge/Contributor-Vitor%20Lemos-blue" /></a>
+  
+  <a href="https://github.com/herissonnobre" alt="Contributor Herisson" target="_blank">
+    <img src="https://img.shields.io/badge/Contributor-Herisson%20Nobre-blue" /></a>
+</p>
+
 ----------
 
 # 🧰 Technologies used
@@ -68,7 +81,7 @@ This section lists a bunch of features made through the process.
 
 # 🏭 How to install/use
 
-This section describes how to run this app locally at your environment, of course you can access the deployed version [here](https://letmeask-19e44.web.app/). For this you need to have `ruby 2.7.3`, `postgresql`, `node`, `git` installed.
+This section describes how to run this app locally at your environment. For this you need to have `ruby 2.7.3`, `postgresql`, `node`, `git` installed.
 
 - **Backend**
 
@@ -77,13 +90,13 @@ First of all, we need to setup some files, starting with `config/database.yml`, 
 This part is optional, just if you want to see the mailer working, go to `config/enviroments/development.rb`, on the last lines you will need to set some configurations for `action_mailer` work, like email, password, domain...
 
 If you don't have these gems, install it:
-```powershell
+```bash
 $ gem install bundler
 $ gem install rails
 ```
 
 Open a shell and get the repository on your local files with:
-```powershell
+```bash
 $ git clone https://github.com/m4ycon/petgato-7.git
 $ cd petgato-7/backend
 # install the gems
@@ -97,7 +110,7 @@ $ rails s
 
 You can replace `npm` by `yarn`, if you have it. Now open another shell and:
 
-```powershell
+```bash
 $ cd petgato-7/frontend
 $ npm install
 $ npm start
@@ -109,4 +122,4 @@ Happy hacking!
 
 ----------
 
-Made by Maycon Fabio, Herisson Neves and Vitor Lemos 🚀
+Made by Maycon Fabio, Vitor Lemos and Herisson Nobre 🚀
