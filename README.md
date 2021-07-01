@@ -1,8 +1,21 @@
 # 🐱 Petgatô 7
 
-<!-- <h1 align="center">
-  <img height="200px" src="./readme-images/Screenshot_2.png" />
-</h1> -->
+<h1 align="center">
+  <img height="200px" src="./readme-assets/Screenshot_7.png" />
+  <img height="200px" src="./readme-assets/Screenshot_8.png" />
+</h1>
+<h1 align="center">
+  <img height="200px" src="./readme-assets/Screenshot_1.png" />
+  <img height="200px" src="./readme-assets/Screenshot_2.png" />
+</h1>
+<h1 align="center">
+  <img height="200px" src="./readme-assets/Screenshot_3.png" />
+  <img height="200px" src="./readme-assets/Screenshot_4.png" />
+</h1>
+<h1 align="center">
+  <img height="200px" src="./readme-assets/Screenshot_5.png" />
+  <img height="200px" src="./readme-assets/Screenshot_6.png" />
+</h1>
 
 ----------
 
