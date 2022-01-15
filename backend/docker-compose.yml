@@ -1,0 +1,28 @@
+# version: "3.9"
+
+services:
+  api:
+    container_name: petgato_api
+    build: .
+    command: rails s -b '0.0.0.0'
+    ports:
+      - "3001:3000"
+    volumes:
+      - .:/home/api
+    depends_on:
+      - db
+
+  db:
+    container_name: petgato_db
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: petgato_back
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data
+
+
+# docker-compose run --no-deps server rails new . --force --database=postgresql
